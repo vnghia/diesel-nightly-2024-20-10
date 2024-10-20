@@ -1,0 +1,8 @@
+[package]
+name = "diesel-nightly-2024-20-10"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+diesel = { version = "2.2.4", features = ["64-column-tables"] }
+diesel-async = { version = "0.5.0", features = ["postgres"] }
